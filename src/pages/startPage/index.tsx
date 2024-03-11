@@ -16,7 +16,8 @@ export default function StartPage() {
                 </Typography>
                 <Grid container>
                     <ContainedButton variant="contained">Start solving</ContainedButton>
-                    <Typography sx={{color: "rgba(252, 200, 34, 1)", alignSelf: "center", fontSize: "22px"}}>know more</Typography>
+                    <Typography sx={{color: "rgba(252, 200, 34, 1)", alignSelf: "center", fontSize: "22px"}}>
+                        know more</Typography>
                 </Grid>
             </Grid>
             <StartImage src={Startimage}/>

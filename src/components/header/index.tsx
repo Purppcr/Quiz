@@ -1,19 +1,14 @@
-import {HeaderBar, HeaderList, HeaderListItem, Image} from "./styled";
-import {Grid, ListItemButton, Typography} from "@mui/material";
+import {HeaderBar, HeaderList, HeaderListItem} from "./styled";
+import {Grid, ListItemButton} from "@mui/material";
 import {LineButton} from "../../buttons/styled";
 // @ts-ignore
-import Hat from "../../assets/image/academyHat.png"
+import Logo from "../Logo";
 
 export default function Header() {
     return (
         <HeaderBar>
             <Grid container justifyContent="space-between">
-                <Grid alignSelf="center">
-                    <Image src={Hat}/>
-                    <Typography variant="h4">
-                        QuizGrad
-                    </Typography>
-                </Grid>
+                <Logo/>
                 <HeaderList>
                     <HeaderListItem>
                         <ListItemButton>How it Works?</ListItemButton>

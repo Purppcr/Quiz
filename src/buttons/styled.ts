@@ -6,7 +6,7 @@ export const LineButton = styled(Button)(() => ({
     border: "2px solid ",
     borderRadius: "0",
     alignSelf: "center",
-    padding: "3px 20px"
+    padding: "3px 20px",
 }));
 
 export const ContainedButton = styled(Button)(() => ({
@@ -15,7 +15,14 @@ export const ContainedButton = styled(Button)(() => ({
     padding: "15px 20px",
     fontWeight: "bold",
     marginRight: "40px",
-    shadowColor: "rgba(252, 200, 34, 1)"
+    color: "white"
+}));
+
+export const SimpleButton = styled(Button)(() => ({
+    fontWeight: "bold",
+    fontSize: "12px",
+    color: "orange",
+    padding: "0"
 }));
 
 
